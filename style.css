@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(233, 231, 231);
+}
+.navbar{
+    background-color: rgb(44, 44, 44);
+    color: rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.nav{
+    display: flex;
+    cursor: pointer;
+    max-width: 1000px;
+    gap: 29px;
+   margin: 0px 20px 0px 20px;
+}
+.nav p{
+    padding: 10px 0px 10px 0px;
+}
+.icon{
+    padding: 13px 0px 10px 0px;
+    cursor: pointer;
+}
+.nav p:hover{
+    color: brown;
+}
+.icon:hover{
+    color: brown;
+}
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.body{
+    max-width: 810px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 20px;
+    border-radius: 3px;
+    padding: 100px 60px 30px 60px;
+    box-shadow: 10px 10px 10px  rgb(214, 214, 214);;
+}
+.body h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.body p{
+    font-size: 14px;
+}
+.body a{
+    text-decoration: none;
+}
+.body a:hover{
+    text-decoration: underline;
+}
+.b1{
+    margin-bottom: 100px;
+}
+.b2{
+    padding: 60px 60px 0px 60px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+.quoter{
+    padding-top: 15px;
+    color: rgb(160, 159, 159);
+}
+.hr{
+    margin-top: 80px;
+}
+.b3 h1{
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+.b3 h2{
+    padding-bottom: 20px;
+}
+.b3 b{
+    font-size: 14px;
+}
